@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 const IndexPage = ({ data }) => {
   return (
     <div>
-      <h1>all my bookmarks...</h1>
+      <h1>sruthika's saved sites...</h1>
       {data.allRestApi22A5E6Fbc0E664513D2387476A221277BookmarksDirectory.nodes[0].directory.map((directory) => {
         return (
           <article>

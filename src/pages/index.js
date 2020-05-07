@@ -5,10 +5,7 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <h1>sruthika's saved sites...</h1>
-<<<<<<< HEAD
       <h4><a href = "/contact">recommend me a site!</a></h4>
-=======
->>>>>>> 4e6185559e68fee3aea37f6d0e483cfd7b9118c6
       {data.allRestApi22A5E6Fbc0E664513D2387476A221277BookmarksDirectory.nodes[0].directory.map((directory) => {
         return (
           <article>

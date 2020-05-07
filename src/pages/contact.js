@@ -1,5 +1,6 @@
 import React from "react";
 import { navigateTo } from "gatsby-link";
+import Container from "../components/container"
 
 function encode(data) {
   return Object.keys(data)
@@ -34,7 +35,7 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
+      <Container>
         <h1>sruthika seeking sites...</h1>
         <form
           name="contact"
@@ -73,7 +74,7 @@ export default class Contact extends React.Component {
             <button type="submit">Send</button>
           </p>
         </form>
-      </div>
+      </Container>
     );
   }
 }

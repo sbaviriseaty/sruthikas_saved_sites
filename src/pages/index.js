@@ -8,7 +8,7 @@ const IndexPage = ({ data }) => {
       {data.allRestApi22A5E6Fbc0E664513D2387476A221277BookmarksDirectory.nodes[0].directory.map((directory) => {
         return (
           <article>
-            <h7>{directory.id}: </h7>
+            <h7>{directory.id - 1}: </h7>
             <a href= {directory.link} >{directory.title }</a>
           </article>
         )

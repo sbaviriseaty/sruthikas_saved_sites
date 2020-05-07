@@ -37,6 +37,7 @@ export default class Contact extends React.Component {
     return (
       <Container>
         <h1>sruthika seeking sites...</h1>
+        <h4><a href = "/">go back to saved sites!</a></h4>
         <form
           name="contact"
           method="post"
@@ -78,3 +79,4 @@ export default class Contact extends React.Component {
     );
   }
 }
+

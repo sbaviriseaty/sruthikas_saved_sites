@@ -1,4 +1,32 @@
 .container {
   margin: 3rem auto;
-  max-width: 600px;
+  max-width: 600px;  
 }
+
+h1 {
+    background-color: white;
+}
+
+article {
+    margin: 1rem auto;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+/* visited link */
+a:visited {
+    color: grey;
+  }
+  
+/* mouse over link */
+a:hover {
+    color: rgb(199, 112, 141);
+  }
+  
+/* selected link */
+a:active {
+    color: black;
+  }

@@ -4,11 +4,12 @@ import { graphql } from "gatsby"
 const IndexPage = ({ data }) => {
   return (
     <div>
-      <h1>all my bookmarks...</h1>
+      <h1>sruthika's saved sites...</h1>
+      <h4><a href = "/contact">recommend me a site!</a></h4>
       {data.allRestApi22A5E6Fbc0E664513D2387476A221277BookmarksDirectory.nodes[0].directory.map((directory) => {
         return (
           <article>
-            <h7>{directory.id}: </h7>
+            <h7>{directory.id - 1}: </h7>
             <a href= {directory.link} >{directory.title }</a>
           </article>
         )

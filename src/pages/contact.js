@@ -36,7 +36,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Container>
-        <h1>sruthika seeking sites...</h1>
+        <h1>💡 sruthika seeking sites...</h1>
         <h4><a href = "/">go back to saved sites!</a></h4>
         <form
           name="contact"

@@ -6,7 +6,8 @@ const IndexPage = ({ data }) => {
   return (
     <Container>
       <h1>🔗 sruthika's saved sites...</h1>
-      <h4><a href = "/contact">recommend me a site!</a></h4>
+      <h3><a href = "/contact">💡 recommend me a site!</a></h3>
+      <a href="https://tilearned.netlify.app/"><h5>🙏 inspired by Kat Huang's tilearned</h5></a>
       {data.allRestApi22A5E6Fbc0E664513D2387476A221277BookmarksDirectory.nodes[0].directory.map((directory) => {
         return (
           <article>
